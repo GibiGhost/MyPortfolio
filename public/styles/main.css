@@ -1,0 +1,69 @@
+body {
+    align-items: center;
+    background-color: #a6a18e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: "Geist", sans-serif;
+    margin: 1rem;
+    min-height: 100vh; 
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .container {
+    
+    background: #f2f3f4;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 52rem;
+    min-height: 100vh;
+    opacity: .8;
+    padding: 2rem;
+  }
+
+  @media (max-width: 1000px) {
+    .container {
+      max-width: 44rem;
+    }
+  }
+
+  .footer {
+    width: 50%; 
+    margin-top: 1rem;
+  }
+  footer {
+    display: flex;
+    font-size: .75rem;
+    justify-content: space-between;
+  }
+
+  h1 {
+    color: #4d371f;
+    font: 1.25rem;
+  }
+
+  p, a{
+    color: #7e6c57;
+    text-decoration: none;
+    font-size: .875rem;
+  }
+  
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .tabs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tab-btn {
+    border: none;
+    color: #4d371f;
+  }
