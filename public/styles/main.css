@@ -1,6 +1,26 @@
+:root {
+  --base-color: #a6a18e;
+  --base-variant: #f2f3f4;
+  --text-color: #4d371f;
+  --secondary-text: #7e6c57;
+  --accent-color: #c4c0a6;
+  --button-color: #b1bc6e;
+  --hightlight-color: #93a74b;
+}
+
+.darkmode {
+  --base-color: #847960;
+  --base-variant: #28281e;
+  --text-color: #ffffff;
+  --secondary-text: #ece7e1;
+  --accent-color: #c4c0a6;
+  --button-color: #b1bc6e;
+  --hightlight-color: #93a74b;
+}
+
 body {
     align-items: center;
-    background-color: #a6a18e;
+    background-color: var(--base-color);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -12,7 +32,7 @@ body {
   }
   .container {
     
-    background: #f2f3f4;
+    background: var(--base-variant);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -39,12 +59,12 @@ body {
   }
 
   h1 {
-    color: #4d371f;
+    color: var(--text-color);
     font: 1.25rem;
   }
 
   p, a{
-    color: #7e6c57;
+    color: var(--secondary-text);
     text-decoration: none;
     font-size: .875rem;
   }
