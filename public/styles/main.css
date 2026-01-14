@@ -56,6 +56,11 @@ h1 {
   font-weight: 600;
 }
 
+a {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .theme-toggle {
   background: none;
   border: 1px solid var(--border);
@@ -85,8 +90,6 @@ h1 {
 }
 
 .intro a {
-  color: var(--text);
-  font-weight: 600;
   text-decoration: none;
 }
 
@@ -233,7 +236,6 @@ nav button.active {
 }
 
 footer {
-
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid var(--border);
@@ -242,6 +244,9 @@ footer {
   align-items: center;
   color: var(--text);
   font-size: 0.9rem;
+  @media (max-width: 768px) {
+    font-size: 0.5rem;
+  }
 }
 
 .green-badge::before {
