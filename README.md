@@ -10,7 +10,7 @@ Other considerations considered for sustainability:
 1. Using System Fonts - They are already installed on a user's device and do not require extra data to be downloaded, which reduces energy consumption and carbon emissions with every page load.
 2. Default Dark Mode & Reducing White Space - White backgrounds require significantly more energy to illuminate all pixels compared to dark backgrounds, especially on OLED displays where it can consume up to 47% more power at high brightness. This increased power usage leads to faster battery drain and higher carbon emissions.
 3. No Images - Wasn't a necessity and having uncompressed images can consume more bandwidth and slow down website loading, leading to higher, unnecessary energy consumption. 
-4. Green Host - Using CloudFlare which runs on renewable energy and also helps manage bots
+4. Green Host - Using Cloudflare which runs on renewable energy and also helps manage bots.
 
 ## Lessons Learned
 I learned more about web sustainability through this project, and that simple is sometimes much better. 
